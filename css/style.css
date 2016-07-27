@@ -1,0 +1,59 @@
+#contenedor{
+	width: 50%;
+	margin: 0 auto;
+	border: 1px solid #000;
+}
+
+.img img{
+	margin: 20px 50px;
+	width: 211px;
+	height: 211px;
+	border-radius: 50%
+}
+.img{
+	width: 50%;
+	margin:0 auto;
+	position: relative;
+}
+.name{
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.habilidades{
+	margin-left: 50px;
+}
+.box1{
+	width: 350px;
+	height: 50px;
+}
+.box2{
+	width: 250px;
+	height: 50px;
+}
+.box3{
+	width: 150px;
+	height: 50px;
+}
+.box1, .box2, .box3{
+	background-color: gray;
+	margin-top: 40px;
+	box-sizing: border-box;
+	padding: 20px;
+	color: #fff;
+}
+.portafolio{
+	margin-left: 50px;
+	margin-bottom: 30px
+}
+.galery{
+	margin: 0 auto;
+}
+.galery img{
+	width: 180px;
+}
+.box-img{
+	display: inline-block;
+	padding: 4px;
+}

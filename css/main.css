@@ -1,0 +1,100 @@
+/* Ingresa tu css aqui */
+body{
+	font-family: Arial;
+}
+.content-logo{
+	width: 50%;
+	margin: 0 auto;
+}
+
+.content-logo img{
+	margin-bottom: 20px;
+}
+
+.linea{
+	width: 50%;
+	border: 1px solid #000;
+	margin: 0 auto;
+}
+
+ul{
+	margin-left: 335px;
+}
+li{
+	list-style: none;
+	display: inline-block;
+	font-family: Arial;
+}
+a{
+	text-decoration:none;
+	padding: 30px;
+	color:#000;
+}
+#imagen{
+	width: 50%;
+	margin: 0 auto;
+}
+#imagen img{
+  margin: 40px auto;
+  width: 100%;
+}
+#texto{
+	width: 50%;
+	margin: 0 auto;
+}
+#texto p{
+	width: 50%;
+	margin: 30px auto;
+	text-align: center;
+	font-size: 16px;
+}
+.linea2{
+	width: 50px;
+	border:1px solid #000;
+	margin: 0 auto;
+}
+#galeria{
+	width: 50%;
+	margin: 50px auto;
+}
+span{
+	position: absolute;
+	color:#fff;
+	right: 0;
+	bottom: 0;
+	padding: 5px;
+}
+.contenedor{
+	width: 100%;
+	margin:0 auto;
+}
+.linea3{
+	width: 50px;
+	border: 2px solid #000;
+	margin-bottom: 15px;
+	margin-left: 6px;
+}
+.box-img{
+	display: inline-block; 
+	width: 209px;
+	height: 209px;
+	position: relative;
+	margin: 5px;
+	background: rgba(0, 0, 0, 0.8)
+}
+.overlay{
+	width: 209px;
+	height: 209px;
+	opacity: 0.5;
+}
+
+#galeria .contenedor img{
+	width: 209px;
+	height: 209px;
+	margin-bottom: 10px;
+}
+#galeria .contenedor .box-img a{
+	text-decoration:none;
+	color: #fff;
+	margin-right: -25px;
+}
